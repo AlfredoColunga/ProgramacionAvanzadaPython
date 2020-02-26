@@ -1,2 +1,2 @@
-from holamundo import main
+from PrintVariable import main
 main()
