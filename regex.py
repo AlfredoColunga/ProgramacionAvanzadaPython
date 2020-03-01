@@ -2,7 +2,7 @@
 import re
 
 def main():
-  # El dato se pregunta hasta que se cumpla la expreción
+  # El dato se pregunta hasta que se cumpla la expresión
   while True:
     strRFC = input("Ingrese RFC: ")
     # (^) inicia con, ($) termina con. [A-Z0-9] caracteres de "A a Z" y "0 a 9"
