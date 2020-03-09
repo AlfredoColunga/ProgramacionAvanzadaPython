@@ -19,7 +19,7 @@ def main():
  # La variable (fDato) almacena en float el dato capturado en la variable de paso
  fDato =float(_fDato)
  # Si el dato es de tipo date se usa una variable de paso (_dtDato) que es string
- _dtDato = input("Ingrese una fecha (yyyy/mm/dd): ")
+ _dtDato = input("Ingrese una fecha (YYYY/MM/DD): ")
  # [n,m] Extrae desde la posición "n" a la posición "m" (sin incluir "m")
  # [-m:] Extrae desde la posición "m", de atrás hacia adelante
  anio = _dtDato[0:4]

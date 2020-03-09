@@ -1,2 +1,2 @@
-from regex import main
+from colegio import main
 main()
