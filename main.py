@@ -1,2 +1,2 @@
-from colegio import main
+from pregunta import main
 main()
