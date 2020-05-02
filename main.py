@@ -1,2 +1,2 @@
-from pregunta import main
+from donacion import main
 main()

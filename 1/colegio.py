@@ -12,7 +12,7 @@ def fechavalida(fecha):
   try:
      anio = int(fecha[0:4])
      mes = int(fecha[5:7])
-     dia = int(fecha[-2])
+     dia = int(fecha[-2:])
      datetime.date(anio,mes,dia)
   except ValueError:
     # Si ocurre el error "ValueError" se retorna False
@@ -24,7 +24,7 @@ def fechavalida(fecha):
 def crearfecha(fecha):
      anio = int(fecha[0:4])
      mes = int(fecha[5:7])
-     dia = int(fecha[-2])
+     dia = int(fecha[-2:])
      return datetime.date(anio,mes,dia)
 
 def main():
