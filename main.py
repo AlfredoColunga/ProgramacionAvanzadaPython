@@ -1,2 +1,2 @@
-from donacion import main
+from colecciones import main
 main()
