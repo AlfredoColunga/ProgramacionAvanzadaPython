@@ -1,2 +1,2 @@
-from colecciones import main
+from colegio import main
 main()
